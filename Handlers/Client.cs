@@ -34,11 +34,22 @@ public class Client : UdpClient, IComparable<Client>
     /// </summary>
     /// <remarks>An integer between 0 and 65,535 </remarks>
     public required int Port { get; init; }
+    /// <summary>
+    /// Returns a boolean representing whether the <see cref="Client"/> is currently connected.
+    /// </summary>
     public bool IsConnected => Active;
+    /// <summary>
+    /// Gets the remote network endpoint to which the client is connected.
+    /// </summary>
     public EndPoint? RemoteEndPoint => Client.RemoteEndPoint;
     // Conversions //
     public static implicit operator IPEndPoint?(Client client) => (IPEndPoint?)client?.RemoteEndPoint;
     // Events //
+    /// <summary>
+    /// Occurs when data is received from the network.
+    /// </summary>
+    /// <remarks>The event provides a <see cref="NetDataReader"/> instance containing the received data.
+    /// Subscribers can use this event to process incoming packets as they arrive.</remarks>
     public event EventHandler<NetDataReader>? OnNetworkReceive;
     // Private Methods //
     private async Task ListenAsync()

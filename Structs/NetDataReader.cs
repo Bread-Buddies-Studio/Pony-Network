@@ -12,7 +12,7 @@ using System.Text;
 
 namespace Core.Structs;
 
-public struct NetDataReader(byte[] Data)
+public struct NetDataReader(in byte[] Data)
 {
     // Properties //
     public int Position { get; private set; }

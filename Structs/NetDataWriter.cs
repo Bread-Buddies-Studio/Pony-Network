@@ -86,10 +86,9 @@ public struct NetDataWriter(params byte[] Data)
         Prepend(writer.Data);
     }
     #endregion
-    public void Clear(int newAllocation)
+    public void Clear(int newAllocation = 0)
     {
         Position = 0;
         Data = new byte[newAllocation];
     }
-    public void Clear() => Clear(0);
 }

@@ -38,7 +38,7 @@ public abstract class Server : UdpClient
     /// </summary>
     public bool AcceptingConnections = true;
     /// <summary>
-    /// Contains the endpoint of which to send data to.
+    /// Contains the endpoint of which the <see cref="Server"/> receives data from.
     /// </summary>
     public required IPEndPoint RemoteEndPoint;
     // Events //

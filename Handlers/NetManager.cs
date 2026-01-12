@@ -8,8 +8,12 @@ using System.Text;
 
 namespace Core.Handlers;
 
+/// <summary>
+/// Exists solely as an example. Highly recommend making your own descendant of the <see cref="Server"/> class
+/// </summary>
 public class NetManager : Server
 {
+    #region Constructors
     [SetsRequiredMembers]
     public NetManager(IPEndPoint RemoteEndPoint) : base(RemoteEndPoint)
     {
@@ -18,10 +22,13 @@ public class NetManager : Server
     }
     [SetsRequiredMembers]
     public NetManager(IPAddress address, int Port) : this(new IPEndPoint(address, Port)) {}
-
+    #endregion
+    #region Event Methods
     protected override void OnConnectionReceived(IPEndPoint client, ConnectionRequest request, in NetDataReader reader)
     {
+        // Debug //
         Console.WriteLine("Connection Received!");
+        // Accept Request //
         request.Accept();
     }
     protected override void OnNetworkReceived(in IPEndPoint endPoint, NetDataReader reader)
@@ -29,6 +36,8 @@ public class NetManager : Server
         // Conditions //
         if (endPoint is null)
             return;
+        // Debug //
         Console.WriteLine($"Received: {reader.ReadString()}");
     }
+    #endregion
 }
