@@ -1,11 +1,10 @@
-﻿using Core.Handlers;
-using Core.Structs;
+﻿using PonyNetwork.Structs;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using static Core.Handlers.ConnectionRequest;
+using static PonyNetwork.Handlers.ConnectionRequest;
 
-namespace Core.Extensions;
+namespace PonyNetwork.Extensions;
 
 public static class NetDataReaderExtensions
 {

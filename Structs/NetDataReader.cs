@@ -1,16 +1,6 @@
-﻿using Core.Handlers;
-using Core.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Diagnostics;
-using System.Net;
-using System.Runtime.CompilerServices;
-using System.Runtime.InteropServices;
-using System.Security.Cryptography;
-using System.Text;
+﻿using System.Runtime.InteropServices;
 
-namespace Core.Structs;
+namespace PonyNetwork.Structs;
 
 public struct NetDataReader(in byte[] Data)
 {

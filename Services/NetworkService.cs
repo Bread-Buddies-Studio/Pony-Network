@@ -1,11 +1,8 @@
-﻿using Core.Extensions;
-using System;
-using System.Collections.Generic;
-using System.Net;
+﻿using System.Net;
 using System.Net.NetworkInformation;
-using System.Text;
+using PonyNetwork.Extensions;
 
-namespace Core.Services;
+namespace PonyNetwork.Services;
 
 /// <summary>
 /// Contains all the necessary static network methods.

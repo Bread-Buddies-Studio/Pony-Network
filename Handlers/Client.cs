@@ -1,5 +1,5 @@
-﻿using Core.Services;
-using Core.Structs;
+﻿using PonyNetwork.Services;
+using PonyNetwork.Structs;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
@@ -9,7 +9,7 @@ using System.Runtime.CompilerServices;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
-namespace Core.Handlers;
+namespace PonyNetwork.Handlers;
 /// <summary>
 /// Represents a <see cref="UdpClient"/> to connect to a <see cref="Server"/>
 /// </summary>

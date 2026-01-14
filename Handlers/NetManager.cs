@@ -1,4 +1,4 @@
-﻿using Core.Structs;
+﻿using PonyNetwork.Structs;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -6,7 +6,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Net;
 using System.Text;
 
-namespace Core.Handlers;
+namespace PonyNetwork.Handlers;
 
 /// <summary>
 /// Exists solely as an example. Highly recommend making your own descendant of the <see cref="Server"/> class

@@ -1,18 +1,11 @@
-﻿using Core.Extensions;
-using Core.Services;
-using Core.Structs;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics;
+﻿using PonyNetwork.Extensions;
+using PonyNetwork.Services;
+using PonyNetwork.Structs;
 using System.Diagnostics.CodeAnalysis;
 using System.Net;
 using System.Net.Sockets;
-using System.Reflection.Metadata.Ecma335;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
 
-namespace Core.Handlers;
+namespace PonyNetwork.Handlers;
 
 public abstract class Server : UdpClient
 {

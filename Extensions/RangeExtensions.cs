@@ -1,4 +1,4 @@
-﻿namespace Core.Extensions;
+﻿namespace PonyNetwork.Extensions;
 
 public static class RangeExtensions
 {

@@ -1,11 +1,6 @@
-﻿using Core.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Runtime.InteropServices;
-using System.Text;
+﻿using PonyNetwork.Interfaces;
 
-namespace Core.Structs;
+namespace PonyNetwork.Structs;
 
 public struct NetDataWriter(params byte[] Data)
 {
