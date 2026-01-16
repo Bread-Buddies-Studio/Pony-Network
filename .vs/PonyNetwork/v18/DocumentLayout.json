@@ -1,0 +1,171 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Bread\\Documents\\GitHub\\Pony-Network\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A571BF50-2E47-CCD6-2061-523CB766B048}|PonyNetwork.csproj|c:\\users\\bread\\documents\\github\\pony-network\\structs\\vector2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A571BF50-2E47-CCD6-2061-523CB766B048}|PonyNetwork.csproj|solutionrelative:structs\\vector2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A571BF50-2E47-CCD6-2061-523CB766B048}|PonyNetwork.csproj|c:\\users\\bread\\documents\\github\\pony-network\\structs\\netdatareader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A571BF50-2E47-CCD6-2061-523CB766B048}|PonyNetwork.csproj|solutionrelative:structs\\netdatareader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A571BF50-2E47-CCD6-2061-523CB766B048}|PonyNetwork.csproj|c:\\users\\bread\\documents\\github\\pony-network\\structs\\ushortrange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A571BF50-2E47-CCD6-2061-523CB766B048}|PonyNetwork.csproj|solutionrelative:structs\\ushortrange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A571BF50-2E47-CCD6-2061-523CB766B048}|PonyNetwork.csproj|c:\\users\\bread\\documents\\github\\pony-network\\services\\networkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A571BF50-2E47-CCD6-2061-523CB766B048}|PonyNetwork.csproj|solutionrelative:services\\networkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A571BF50-2E47-CCD6-2061-523CB766B048}|PonyNetwork.csproj|c:\\users\\bread\\documents\\github\\pony-network\\extensions\\rangeextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A571BF50-2E47-CCD6-2061-523CB766B048}|PonyNetwork.csproj|solutionrelative:extensions\\rangeextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A571BF50-2E47-CCD6-2061-523CB766B048}|PonyNetwork.csproj|c:\\users\\bread\\documents\\github\\pony-network\\structs\\netdatawriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A571BF50-2E47-CCD6-2061-523CB766B048}|PonyNetwork.csproj|solutionrelative:structs\\netdatawriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A571BF50-2E47-CCD6-2061-523CB766B048}|PonyNetwork.csproj|c:\\users\\bread\\documents\\github\\pony-network\\handlers\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A571BF50-2E47-CCD6-2061-523CB766B048}|PonyNetwork.csproj|solutionrelative:handlers\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A571BF50-2E47-CCD6-2061-523CB766B048}|PonyNetwork.csproj|c:\\users\\bread\\documents\\github\\pony-network\\handlers\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A571BF50-2E47-CCD6-2061-523CB766B048}|PonyNetwork.csproj|solutionrelative:handlers\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A571BF50-2E47-CCD6-2061-523CB766B048}|PonyNetwork.csproj|c:\\users\\bread\\documents\\github\\pony-network\\extensions\\netdatareaderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A571BF50-2E47-CCD6-2061-523CB766B048}|PonyNetwork.csproj|solutionrelative:extensions\\netdatareaderextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NetDataReader.cs",
+              "DocumentMoniker": "C:\\Users\\Bread\\Documents\\GitHub\\Pony-Network\\Structs\\NetDataReader.cs",
+              "RelativeDocumentMoniker": "Structs\\NetDataReader.cs",
+              "ToolTip": "C:\\Users\\Bread\\Documents\\GitHub\\Pony-Network\\Structs\\NetDataReader.cs",
+              "RelativeToolTip": "Structs\\NetDataReader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T22:28:39.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RangeExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Bread\\Documents\\GitHub\\Pony-Network\\Extensions\\RangeExtensions.cs",
+              "RelativeDocumentMoniker": "Extensions\\RangeExtensions.cs",
+              "ToolTip": "C:\\Users\\Bread\\Documents\\GitHub\\Pony-Network\\Extensions\\RangeExtensions.cs",
+              "RelativeToolTip": "Extensions\\RangeExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T19:14:17.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UShortRange.cs",
+              "DocumentMoniker": "C:\\Users\\Bread\\Documents\\GitHub\\Pony-Network\\Structs\\UShortRange.cs",
+              "RelativeDocumentMoniker": "Structs\\UShortRange.cs",
+              "ToolTip": "C:\\Users\\Bread\\Documents\\GitHub\\Pony-Network\\Structs\\UShortRange.cs",
+              "RelativeToolTip": "Structs\\UShortRange.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T19:13:20.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NetworkService.cs",
+              "DocumentMoniker": "C:\\Users\\Bread\\Documents\\GitHub\\Pony-Network\\Services\\NetworkService.cs",
+              "RelativeDocumentMoniker": "Services\\NetworkService.cs",
+              "ToolTip": "C:\\Users\\Bread\\Documents\\GitHub\\Pony-Network\\Services\\NetworkService.cs",
+              "RelativeToolTip": "Services\\NetworkService.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwBAAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T18:59:42.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\Bread\\Documents\\GitHub\\Pony-Network\\Handlers\\Client.cs",
+              "RelativeDocumentMoniker": "Handlers\\Client.cs",
+              "ToolTip": "C:\\Users\\Bread\\Documents\\GitHub\\Pony-Network\\Handlers\\Client.cs",
+              "RelativeToolTip": "Handlers\\Client.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T17:19:24.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Server.cs",
+              "DocumentMoniker": "C:\\Users\\Bread\\Documents\\GitHub\\Pony-Network\\Handlers\\Server.cs",
+              "RelativeDocumentMoniker": "Handlers\\Server.cs",
+              "ToolTip": "C:\\Users\\Bread\\Documents\\GitHub\\Pony-Network\\Handlers\\Server.cs",
+              "RelativeToolTip": "Handlers\\Server.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T16:59:10.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NetDataWriter.cs",
+              "DocumentMoniker": "C:\\Users\\Bread\\Documents\\GitHub\\Pony-Network\\Structs\\NetDataWriter.cs",
+              "RelativeDocumentMoniker": "Structs\\NetDataWriter.cs",
+              "ToolTip": "C:\\Users\\Bread\\Documents\\GitHub\\Pony-Network\\Structs\\NetDataWriter.cs",
+              "RelativeToolTip": "Structs\\NetDataWriter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T16:58:06.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Vector2.cs",
+              "DocumentMoniker": "C:\\Users\\Bread\\Documents\\GitHub\\Pony-Network\\Structs\\Vector2.cs",
+              "RelativeDocumentMoniker": "Structs\\Vector2.cs",
+              "ToolTip": "C:\\Users\\Bread\\Documents\\GitHub\\Pony-Network\\Structs\\Vector2.cs",
+              "RelativeToolTip": "Structs\\Vector2.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T16:46:27.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NetDataReaderExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Bread\\Documents\\GitHub\\Pony-Network\\Extensions\\NetDataReaderExtensions.cs",
+              "RelativeDocumentMoniker": "Extensions\\NetDataReaderExtensions.cs",
+              "ToolTip": "C:\\Users\\Bread\\Documents\\GitHub\\Pony-Network\\Extensions\\NetDataReaderExtensions.cs",
+              "RelativeToolTip": "Extensions\\NetDataReaderExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-16T16:46:01.113Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

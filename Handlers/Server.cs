@@ -66,11 +66,12 @@ public abstract class Server : UdpClient
     [SetsRequiredMembers]
     public Server(IPAddress address, int Port) : this(new IPEndPoint(address, Port)) {}
     // Listen Methods //
-    public async Task ListenAsync()
+    protected async Task ListenAsync()
     {
         while (true)
         {
-            Console.WriteLine("Awaiting Data from Client");
+            // Debug //
+            // Console.WriteLine("Awaiting Data from Client");
             // Await Receive of Data //
             UdpReceiveResult result = await ReceiveAsync();
             // Sender //
@@ -94,7 +95,7 @@ public abstract class Server : UdpClient
             Send(bytes, client);
     }
     public void Send(in byte[] bytes) => Send(bytes, Clients);
-    // Event Methods //
+    #region Event Methods
     private void OnConnectionReceived(IPEndPoint endPoint, in NetDataReader reader)
     {
         // Get Type //
@@ -116,6 +117,7 @@ public abstract class Server : UdpClient
         OnNetworkReceived(endPoint, reader);
     }
     protected abstract void OnNetworkReceived(in IPEndPoint endPoint, NetDataReader reader);
+    #endregion
 }
 
 [method: SetsRequiredMembers]

@@ -1,6 +1,7 @@
 ﻿using System.Net;
 using System.Net.NetworkInformation;
 using PonyNetwork.Extensions;
+using PonyNetwork.Structs;
 
 namespace PonyNetwork.Services;
 
@@ -13,7 +14,7 @@ public static class NetworkService
     /// <summary>
     /// Represents the range of valid TCP/UDP ports.
     /// </summary>
-    public static readonly Range ValidPorts = new(49_152, 65_535);
+    internal static readonly UShortRange ValidPorts = new(49_152, 65_535);
     // Exceptions //
     /// <summary>
     /// The exception that is thrown when no valid network ports are available for use.

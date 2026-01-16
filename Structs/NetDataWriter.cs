@@ -12,18 +12,19 @@ public struct NetDataWriter(params byte[] Data)
     public static implicit operator NetDataWriter(in NetDataReader reader) => new(reader.Data);
     // Constructors //
     public NetDataWriter(int allocation) : this(new byte[allocation]) {}
-    // Base Methods //
-    public void Allocate(in int bytes) => Data = new byte[bytes + (Data?.Length ?? 0)];
-    public void Allocate(in int itemSize, in int count) => Allocate(itemSize * count);
-    public unsafe void Allocate<T>(in int count) where T : unmanaged => Allocate(sizeof(T), count);
+    #region Allocation Methods
+    public void Allocate(int bytes) => Data = new byte[bytes + (Data?.Length ?? 0)];
+    public void Allocate(int itemSize, int count) => Allocate(itemSize * count);
+    public unsafe void Allocate<T>(int count) where T : unmanaged => Allocate(sizeof(T), count);
+    #endregion
     #region Append Methods
-    public void Append(in byte value) => Data[Position++] = value;
+    public void Append(byte value) => Data[Position++] = value;
     public void Append(in ReadOnlySpan<byte> value)
     {
         foreach (byte data in value)
             Data[Position++] = data;
     }
-    public void Append(in string value)
+    public void Append(string value)
     {
         // Add String Length //
         foreach (char letter in value)
@@ -31,7 +32,7 @@ public struct NetDataWriter(params byte[] Data)
         // Add Null Terminmator //
         Append('\0');
     }
-    public readonly void Append(in INetSerializable value) => value.Serialize(this);
+    public readonly void Append<T>(in INetSerializable<T> value) => value.Serialize(this);
     public unsafe void Append<T>(T value) where T : unmanaged
     {
         // Get Bytes //
@@ -46,7 +47,7 @@ public struct NetDataWriter(params byte[] Data)
     }
     #endregion
     #region Prepend Methods
-    public void Prepend(in byte value) => Data = [value, ..Data];
+    public void Prepend(byte value) => Data = [value, ..Data];
     public void Prepend(in ReadOnlySpan<byte> value)
     {
         for (int index = value.Length - 1; index >= 0; index--)
@@ -64,7 +65,7 @@ public struct NetDataWriter(params byte[] Data)
         // Append Bytes //
         Prepend(bytes);
     }
-    public void Prepend(in string value)
+    public void Prepend(string value)
     {
         // Add Null Terminmator //
         Prepend('\0');
@@ -72,7 +73,7 @@ public struct NetDataWriter(params byte[] Data)
         foreach (char letter in value.Reverse())
             Prepend(letter);
     }
-    public void Prepend(in INetSerializable value)
+    public void Prepend<T>(in INetSerializable<T> value)
     {
         NetDataWriter writer = new();
         // Add Data //
